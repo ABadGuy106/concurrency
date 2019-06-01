@@ -6,10 +6,11 @@ import java.util.concurrent.*;
 
 /**
  * @ClassName:
- * @Description: 代码模拟并发模拟
+ * @Description: 代码模拟并发模拟---线程不安全
  * @date: 2019/6/113:03
  */
 @Slf4j
+
 public class ConcurrencyTest {
 
     /* 请求总数*/
