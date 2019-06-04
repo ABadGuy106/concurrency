@@ -3,7 +3,6 @@ package net.abadguy.singleton;
 /**
  * 懒汉模式－双重同步锁单例模式
  * 单例实例在第一次使用是进行创建
- * 线程不安全
  *
  */
 public class SingleExample4 {
