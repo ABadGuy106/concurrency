@@ -1,4 +1,4 @@
-package net.abadguy.singleton;
+package net.abadguy.example.singleton;
 
 /**
  * 饿汉模式

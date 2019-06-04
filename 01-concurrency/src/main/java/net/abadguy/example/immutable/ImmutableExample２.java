@@ -1,14 +1,10 @@
-package net.abadguy.immutable;
+package net.abadguy.example.immutable;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
 import net.abadguy.annoations.ThreadSafe;
-
-import java.util.Collections;
-import java.util.Map;
 
 @Slf4j
 @ThreadSafe

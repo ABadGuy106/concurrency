@@ -1,4 +1,4 @@
-package net.abadguy.singleton;
+package net.abadguy.example.singleton;
 
 /**
  * 懒汉模式－双重同步锁单例模式

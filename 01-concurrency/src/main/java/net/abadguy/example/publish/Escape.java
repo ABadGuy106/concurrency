@@ -1,4 +1,4 @@
-package net.abadguy.publish;
+package net.abadguy.example.publish;
 
 import lombok.extern.slf4j.Slf4j;
 

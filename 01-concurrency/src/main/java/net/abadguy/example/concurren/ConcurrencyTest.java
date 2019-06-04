@@ -1,4 +1,4 @@
-package net.abadguy.concurren;
+package net.abadguy.example.concurren;
 
 import lombok.extern.slf4j.Slf4j;
 

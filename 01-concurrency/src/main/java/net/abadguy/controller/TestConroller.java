@@ -1,6 +1,7 @@
 package net.abadguy.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import net.abadguy.example.local.RequestHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,4 +19,10 @@ public class TestConroller {
         log.info("调用测试接口");
         return "test";
     }
+
+    @GetMapping("/threadLocal/test")
+    public Long test2(){
+        return RequestHolder.getId();
+    }
+
 }
