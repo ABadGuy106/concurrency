@@ -1,7 +1,7 @@
 package net.abadguy.filter;
 
 import lombok.extern.slf4j.Slf4j;
-import net.abadguy.example.local.RequestHolder;
+import net.abadguy.example.thread.local.RequestHolder;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

@@ -1,7 +1,7 @@
 package net.abadguy.filter;
 
 import lombok.extern.slf4j.Slf4j;
-import net.abadguy.example.local.RequestHolder;
+import net.abadguy.example.thread.local.RequestHolder;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

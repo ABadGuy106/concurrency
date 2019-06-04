@@ -1,7 +1,7 @@
 package net.abadguy.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import net.abadguy.example.local.RequestHolder;
+import net.abadguy.example.thread.local.RequestHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

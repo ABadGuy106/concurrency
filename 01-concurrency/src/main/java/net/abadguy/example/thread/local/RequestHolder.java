@@ -1,4 +1,4 @@
-package net.abadguy.example.local;
+package net.abadguy.example.thread.local;
 
 public class RequestHolder {
 
