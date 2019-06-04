@@ -13,7 +13,7 @@ public class SingleExample4 {
 
     }
     //单例对象
-    private static SingleExample4 instance=null;
+    private static volatile SingleExample4 instance=null;
     //静态工厂方法
     public static SingleExample4 getInstance(){
         if(instance == null){//双重检测机制
